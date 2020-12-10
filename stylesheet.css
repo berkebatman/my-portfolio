@@ -1,0 +1,161 @@
+
+body     {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+
+
+#codingheading {
+    display: flex;
+    color: black;
+    font-size: 25pt;
+    margin-top: 1.5cm;
+    font-family: monospace;
+}
+
+#musicheading {
+    display: flex;
+    color: black;
+    font-size: 25pt;
+    font-family: monospace;
+}
+ 
+#exp {
+    margin-top: 0.5cm;
+    margin-left: 1cm;
+    font-family: monospace;
+    font-size: 8pt;
+    padding: 0.2cm;
+    align-content: left;
+    display: flex;
+    flex: 1;
+}
+
+ 
+#exp1 {
+    margin-top: 0.5cm;
+    margin-left: 1cm;
+    font-family: monospace;
+    font-size: 10pt;
+    padding: 0.75cm;
+    
+}
+
+
+h1 {
+    font-size: 50px;
+    font-style: inherit;
+    font-family: monospace;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    margin: 0cm;
+    content: 0px;
+    border:black;
+    border-style: solid;
+    background-color: darkred;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 33.6;
+    border-style:solid;
+    content:0px;
+    justify-content: flex-start;
+    padding-top: 0px;
+    align-items: stretch;
+}
+
+.backbox {
+    height: 400px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    padding:0;
+    margin: 0;
+    content: 0;
+}
+
+.interest {
+    display: flex;
+    background-color: whitesmoke; 
+    margin: 0px;
+    width: 16.75cm;
+    height: 4.251cm;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+}
+
+.background-heading   {
+    font-size: 20pt;
+    margin-top: 0.6cm;
+    margin-bottom: 0.6cm;
+    width: 17cm;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.background-list {
+    font-family: monospace;
+    margin-left: 1cm;
+    font-weight: bold;
+}
+
+.lilink {
+    margin-left: 1cm;
+    margin-top; 3cm; 
+}
+
+.list-item {
+    margin-top: 0.6cm;
+    font-family: monospace;
+    margin-left: 1cm;
+    font-weight: lighter;
+}
+
+.background-paragraph {
+    margin-top: 0.6cm;
+    font-family: monospace;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    justify-content: center;
+    text-align: justify;
+}
+
+.background-paragraph2 {
+    border-style: solid;
+    margin-top: 0.6cm;
+    font-family: monospace;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    justify-content: center;
+    text-align: center;
+}
+/* #codingimg {
+    padding: 0px;
+    margin: 0px;
+    content: 0px;
+} */
+
+#bohem  {
+    margin: 0;
+    border: 0px;
+}
+
+.isub{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+}   
+
+
+
