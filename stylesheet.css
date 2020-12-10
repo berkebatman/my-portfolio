@@ -42,6 +42,13 @@ body     {
     
 }
 
+#exp2 {
+    margin-top: 0.5cm;
+    margin-left: 1cm;
+    font-family: monospace;
+    font-size: 8pt;
+    padding: 0.75cm; 
+}
 
 h1 {
     font-size: 50px;
@@ -142,7 +149,7 @@ h1 {
    border-color: darkblue;
 }
 
-}
+
 
 #bohem  {
     margin: 0;
@@ -157,4 +164,18 @@ h1 {
 }   
 
 
+.container2 {
+    display: flex;
+    border-style: solid;
+    
 
+  
+}
+
+.container2sub {
+    display: flex;
+    flex: 1;
+    border-style: solid;
+    margin: 0;
+    justify-content: center;
+}
