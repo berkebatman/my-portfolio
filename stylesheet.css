@@ -149,14 +149,12 @@ h1 {
    border-color: darkblue;
 }
 
-
-
 #bohem  {
     margin: 0;
     border: 0px;
 }
 
-.isub{
+.isub  {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -166,16 +164,32 @@ h1 {
 
 .container2 {
     display: flex;
-    border-style: solid;
-    
-
-  
+    border-style: solid; 
+    background-color: darkblue; 
 }
 
 .container2sub {
     display: flex;
     flex: 1;
     border-style: solid;
-    margin: 0;
+    margin: 0cm;
     justify-content: center;
+    text-align: center;
+    background-color: darkblue;
+    color: whitesmoke;
+    border-color: black;
+    padding-top: 0.5cm;
+    padding-bottom: 1cm;
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: monospace;    
+}
+
+#e-mail {
+    font-style: underline;
+    padding-top: 0.5cm;
+}
+
+.feedbacktxt {
+    padding-top: 1cm;
 }
