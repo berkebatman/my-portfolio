@@ -54,7 +54,7 @@ h1 {
     content: 0px;
     border:black;
     border-style: solid;
-    background-color: darkred;
+    background-color: darkblue;
     font-weight: bold;
 }
 
@@ -136,14 +136,13 @@ h1 {
     font-family: monospace;
     margin-left: 1cm;
     margin-right: 1cm;
-    justify-content: center;
+    border-width: 4ch;  
     text-align: center;
+    margin-top: 1.2cm;
+   border-color: darkblue;
 }
-/* #codingimg {
-    padding: 0px;
-    margin: 0px;
-    content: 0px;
-} */
+
+}
 
 #bohem  {
     margin: 0;
