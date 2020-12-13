@@ -127,12 +127,17 @@ body
     margin-right: 1cm;
     border-width: 1ch;  
     border-color: darkblue;
-    
 }
 
 #bohem  {
     height: 100%;
     border: 0px;
+}
+
+#contactpagelink {
+    font-size: 25pt;
+    text-decoration: underline;
+    padding-top: 1cm;
 }
 
 /* Second Section: */
@@ -143,6 +148,7 @@ body
     background-color: darkblue; 
     width: 100%;
     flex-direction: row;
+    height: 3.2cm;
     
 }
 
@@ -184,6 +190,66 @@ body
 #ratelist {
     text-align: center;
     margin-top: 0.2cm;
+}
+
+/* contact us page */
+
+.containerCu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: stretch;
+    border-style: solid;
+    height: 13.2cm;
+}
+
+.containerCuSub1 {
+    flex: 1;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+.containerCuSub2 {
+    flex: 1;
+    border-style: solid;
+    background-color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.socialmedia1  {
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin: 1.5cm;
+    margin-right: 2cm;
+}
+
+.socialmediagif {
+    margin-left: 5cm;
+}
+
+.formitem {
+    margin-top: 1.5cm;
+    margin-left: 2cm;
+    font-size: 25pt;
+}
+
+.formitemtitle {
+    margin-top: 1.3cm;
+    margin-left: 2cm;
+    font-size: 30pt;
+    font-family: monospace;
+}
+
+#homepagelink {
+    font-size: 20pt;
+    font-style: bolder;
+   text-decoration: underline;
 }
 
 @media screen  and (max-width: 730) {
@@ -237,6 +303,9 @@ body
         margin:0.5cm;
     }
 }
+
+
+
 
 @media screen and (max-width: 1200px) and (min-width: 1088px) {
     .background-paragraph {
