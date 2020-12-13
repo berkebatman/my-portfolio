@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="stylesheet.css"> 
     <title>Document</title>
 </head>
+
 <body>
 
     <h1> Contact </h1>
@@ -33,31 +34,33 @@
         <div class="containerCuSub2"> 
             <form action="/messages-database" method="post">
                  <div class="formitemtitle"> Send us your Message </div> <br>
-                 <div class="formitem"><label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name">
-                    </div>
+                 
+                 <div class="formitem"> Your Name:  <br>
+                        <input type="text" id="name" name="user_name">
+                </div>
                       
                     
-                    <div class="formitem" ><label for="mail">E-mail:</label>
+                    <div class="formitem" > Your E-mail: <br>
                       <input type="email" id="mail" name="user_email"> 
                     </div>
                     
-                    <div class="formitem"><label for="msg">Message:</label>
+                    <div class="formitem"> Message: <br>
                       <textarea id="msg" name="user_message"></textarea>
                     </div>
+
+                    <div class="formitem submitbutton"> <input  type="submit" value="Submit"> </div>
             </form>
         </div>
     </div>
     
     <div class="container2">
             
-    <div class="container2sub"> </div>
-    <div class="container2sub">
-        <p id="homepagelink"> Home Page </p>
+        <div class="container2sub"></div>
+        <div id= "pagelink" class="container2sub"> <a href="index.html"> Home Page </a></div>
+        <div class="container3sub"></div> 
     </div>
-    <div class="container3sub"></div> 
-    </div>
-        </div>
+    
+
         
     </div>
 

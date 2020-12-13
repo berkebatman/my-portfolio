@@ -134,11 +134,21 @@ body
     border: 0px;
 }
 
-#contactpagelink {
+#pagelink {
     font-size: 25pt;
     text-decoration: underline;
     padding-top: 1cm;
+    font-style: bolder;
+
 }
+
+#pagelink2 {
+    font-size: 25pt;
+    text-decoration: underline;
+    padding-top: 0cm;
+    font-style: bolder;
+}
+
 
 /* Second Section: */
 
@@ -211,12 +221,23 @@ body
 }
 
 .containerCuSub2 {
-    flex: 1;
+    flex: 2;
     border-style: solid;
     background-color: white;
     font-weight: bold;
     font-family: monospace;
 }
+
+.containerCuSub1:hover {
+    background-color: beige;
+}
+
+
+.containerCuSub2:hover {
+    background-color: beige;
+}
+
+
 
 .socialmedia1  {
     font-size: 25pt;
@@ -233,11 +254,13 @@ body
     margin-left: 5cm;
 }
 
-.formitem {
-    margin-top: 1.5cm;
+.formitem{
     margin-left: 2cm;
-    font-size: 25pt;
+    margin-top: 0.5cm;
+    font-size: 16pt;
 }
+
+
 
 .formitemtitle {
     margin-top: 1.3cm;
@@ -246,11 +269,13 @@ body
     font-family: monospace;
 }
 
-#homepagelink {
-    font-size: 20pt;
-    font-style: bolder;
-   text-decoration: underline;
+#msg {
+    width: 9cm;
+    height: 2cm;
 }
+
+
+/* media queries */
 
 @media screen  and (max-width: 730) {
     body {
@@ -268,6 +293,11 @@ body
         width: 79%;
     }
 
+}
+
+#submitbutton {
+    font-family: monospace;
+    justify-content: right;
 }
 
 @media screen  and (max-width: 1088px) {
