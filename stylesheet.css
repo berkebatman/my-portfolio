@@ -30,7 +30,7 @@ body
     grid-column-start: 1;
     display: flex;
     align-items: center;
-    background-color: beige; 
+    background-color: whitesmoke; 
     border-style: solid;
     border-color: black;
     width: 17cm; 
@@ -38,6 +38,14 @@ body
    
 }
 
+.interest:hover {
+    background-color: beige;
+}
+
+
+.interestback:hover {
+    background-color: beige;
+}
 
 .interestback {
     grid-column-start: 2;
@@ -45,7 +53,7 @@ body
     grid-row-end: 4;
     align-items: center;
     justify-content: space-between;
-    background-color: beige; 
+    background-color: white; 
     border-style: solid;
     border-color: black;    
     width: 100%;
@@ -116,10 +124,10 @@ body
     margin-top: 1.4cm;
     font-family: monospace;
     margin-left: 1cm;
-    margin-right: 4cm;
+    margin-right: 1cm;
     border-width: 1ch;  
     border-color: darkblue;
-    width: 12cm;
+    
 }
 
 #bohem  {
@@ -135,27 +143,47 @@ body
     background-color: darkblue; 
     width: 100%;
     flex-direction: row;
+    
 }
 
 .container2sub {
     display: flex; 
     flex: 1;
     border-style: solid;
-    margin: 0cm;
     justify-content: center;
     text-align: center;
     background-color: darkblue;
     color: whitesmoke;
     border-color: black;
-    padding-top: 0.5cm;
-    padding-bottom: 1cm;
     font-weight: bold;
     font-size: 11pt;
-    font-family: monospace;    
+    font-family: monospace; 
+    padding: 0.5cm;
+}
+
+.container3sub {
+    display: flex; 
+    flex: 1;
+    border-style: solid;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: darkblue;
+    color: whitesmoke;
+    border-color: black;
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: monospace; 
+    padding: 0.5cm;
 }
 
 .feedbacktxt {
     padding-top: 1cm;
+}
+
+#ratelist {
+    text-align: center;
+    margin-top: 0.2cm;
 }
 
 @media screen  and (max-width: 730) {
@@ -190,7 +218,6 @@ body
     .background-paragraph2 {
         align-self: center;
         text-align: center;
-        font-family: bold;
         width: 90%;
     }
 
@@ -222,7 +249,7 @@ body
     }
 
     .background-paragraph2 {
-        width: 9cm;
+        width: 11cm;
     }
 
     body {
