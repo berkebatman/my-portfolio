@@ -116,9 +116,8 @@ body
     margin-top: 1.4cm;
     font-family: monospace;
     margin-left: 1cm;
-    margin-right: 1cm;
-    border-width: 2ch;  
-    text-align: center;
+    margin-right: 4cm;
+    border-width: 1ch;  
     border-color: darkblue;
     width: 12cm;
 }
@@ -135,6 +134,7 @@ body
     border-style: solid; 
     background-color: darkblue; 
     width: 100%;
+    flex-direction: row;
 }
 
 .container2sub {
@@ -158,8 +158,25 @@ body
     padding-top: 1cm;
 }
 
+@media screen  and (max-width: 730) {
+    body {
+      width: 100%;  
+    } 
 
-@media screen  and (max-width: 1043px) {
+    .container2 {
+        flex-direction: column;
+    }
+
+    .background-paragraph2 {
+        align-self: center;
+        text-align: center;
+        font-family: bold;
+        width: 79%;
+    }
+
+}
+
+@media screen  and (max-width: 1088px) {
     .interestback {grid-column-start: 1;
         grid-row-start: 1;
         grid-row-end: 4;
@@ -171,7 +188,10 @@ body
     }
 
     .background-paragraph2 {
+        align-self: center;
         text-align: center;
+        font-family: bold;
+        width: 90%;
     }
 
     .interest {
@@ -183,19 +203,19 @@ body
         justify-content: left;
     }
 
+    .container2 {
+        flex-direction: column;
+    }
     #exp {
         margin:0.5cm;
     }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 1043px) {
+@media screen and (max-width: 1200px) and (min-width: 1088px) {
     .background-paragraph {
         width: 100%%;
     }
 
-    .background-heading {
-        text-align: center;
-    }
 
     .interestback {
         width: 100%;
