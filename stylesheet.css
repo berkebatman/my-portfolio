@@ -137,7 +137,7 @@ body
 #pagelink {
     font-size: 25pt;
     text-decoration: underline;
-    padding-top: 0.5cm;
+    padding: 0.42cm;
     font-style: bolder;
     color: white;
 }
@@ -293,11 +293,17 @@ body
     justify-content: right;
 }
 
+
 @media screen  and (max-width: 1088px) {
     .interestback {grid-column-start: 1;
         grid-row-start: 1;
         grid-row-end: 4;
         width: 100%;
+    }
+
+    .containerCu {
+        display: flex;
+        flex-direction: column;
     }
     
     .background-heading {
